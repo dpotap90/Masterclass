@@ -3,7 +3,7 @@ import allure
 from jsonschema import validate
 from core.contracts import USER_DATA_SCHEME
 
-BASE_URL = "https://regres.in/"
+BASE_URL = "https://reqres.in/"
 LIST_USERS = "api/users?page=2"
 EMAIL_ENDS = "@reqres.in"
 
