@@ -5,7 +5,7 @@ from core.contracts import USER_DATA_SCHEME
 
 BASE_URL = "https://regres.in/"
 LIST_USERS = "api/users?page=2"
-EMAIL_ENDS = "@regres.in"
+EMAIL_ENDS = "@reqres.in"
 
 @allure.title("Проверяем получение списка пользователей")
 def test_list_users():
